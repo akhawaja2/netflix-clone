@@ -12,7 +12,6 @@ function Row({title, fetchUrl, isLargeRow }) {
 
     //a snippet of code which runs based on specific condition/variable
     //React has useEffect hook
-    //
     useEffect(() => {
         async function fetchData() {
             //ex: https://api.themoviedb.org/3/trending/all/week?api_key=${API_KEY}&language=en-US
